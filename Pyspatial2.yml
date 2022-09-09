@@ -6,7 +6,6 @@ dependencies:
   - python=3.9
   - earthengine-api
   - gdal
-  - geopandas
   - imageio
   - matplotlib
   - numpy
@@ -29,6 +28,7 @@ dependencies:
     - ee
     - earthengine-api
     - geemap
+    - geopandas
     - geoplot
     - geopy
     - ipykernel
@@ -63,6 +63,7 @@ dependencies:
     - seaborn
     - sentinelhub
     - sentinelsat
+    - sqlalchemy
     - tifffile
     - tsraster
     - urbansim
