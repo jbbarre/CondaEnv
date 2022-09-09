@@ -42,7 +42,7 @@ dependencies:
     - oauth2client
     - plotly
     - psutils
-    - psycopg2
+    - psycopg2-binary
     - postgresql
     - proj
     - pygdal
