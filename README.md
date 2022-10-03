@@ -7,5 +7,12 @@ To obtain the yml file from a conda env:
 To create a conda env from YML File:
 ```conda env create -f environment_droplet.yml```
 
-## Pyspatial
+### Pyspatial
 Main spatial env for Spatial Data Science. 
+
+### Pyspatial2
+not working: conflicts not solved by conda
+
+### odc-stac
+
+under test
