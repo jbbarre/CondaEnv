@@ -1,0 +1,63 @@
+name: odc-stac
+channels:
+  - conda-forge
+
+dependencies:
+  - python =3.9
+  - pip =22
+  - mamba
+
+  # odc-stac dependencies
+  - affine
+  - odc-geo >=0.1.3
+  - rasterio
+  - dask-core
+  - numpy
+  - pandas
+  - pystac >=1.0.0,<2
+  - toolz
+  - xarray
+  # for reading with rasterio from s3
+  - boto3
+
+  # planetary-computer lib for URL signing
+  - planetary-computer
+
+  # JupyterLab
+  - jupytext
+  - nodejs
+  - nbdime
+  - jupyter-server-proxy
+  - jupyterlab-git
+  - matplotlib
+  - ipympl
+  - dask
+  - dask-labextension
+  - python-graphviz
+  - bokeh
+
+  # Some Geo libs
+  - ipyleaflet
+  - bqplot
+  - leafmap
+  - geopandas
+  - hvplot
+  - holoviews
+  - rioxarray
+  - fiona
+  - numba
+  - zarr
+  - stackstac
+
+  # conveniences
+  - autopep8
+  - black
+  - isort
+  - python-dotenv # for notebooks
+
+  - pip:
+      # odc-stac local checkout
+      - -e ../
+
+      # JupyterLab dev conveniences
+      - jupyterlab-code-formatter
