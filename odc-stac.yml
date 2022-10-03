@@ -56,8 +56,7 @@ dependencies:
   - python-dotenv # for notebooks
 
   - pip:
-      # odc-stac local checkout
-      - -e ../
+      - odc-stac
 
       # JupyterLab dev conveniences
       - jupyterlab-code-formatter
